@@ -504,11 +504,12 @@ function updatePositions() {
 
   var items = document.querySelectorAll('.mover');
   //move document.body.scrollTop outside from loop. Preventing force synchronous layout
-  var st = document.body.scrollTop;
-  var sin = Math.sin((st / 1250);
+  var sin = Math.sin(document.body.scrollTop / 1250);
+  var cols = 8;
+  var s = 256;
   for (var i = 0; i < items.length; i++) {
-    var phase = sin + (i % 5));S
-    items[i].style.left = items[i].S + 100 * phase + 'px';
+    var phase =  (sin + (i % 5));
+    items[i].style.left = ((i % cols) * s) + 100 * phase + 'px';
   }
 
   // User Timing API to the rescue again. Seriously, it's worth learning.
