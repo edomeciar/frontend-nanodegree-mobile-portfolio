@@ -1,0 +1,109 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'ngrok', '–save-dev' ]
+2 info using npm@2.10.1
+3 info using node@v0.12.4
+4 verbose config Skipping project config: /Users/edo/.npmrc. (matches userconfig)
+5 verbose install initial load of /Users/edo/package.json
+6 verbose installManyTop reading scoped package data from /Users/edo/node_modules/del/package.json
+7 verbose installManyTop reading scoped package data from /Users/edo/node_modules/gulp/package.json
+8 verbose installManyTop reading scoped package data from /Users/edo/node_modules/gulp-autoprefixer/package.json
+9 verbose installManyTop reading scoped package data from /Users/edo/node_modules/gulp-cache/package.json
+10 verbose installManyTop reading scoped package data from /Users/edo/node_modules/gulp-concat/package.json
+11 verbose installManyTop reading scoped package data from /Users/edo/node_modules/gulp-imagemin/package.json
+12 verbose installManyTop reading scoped package data from /Users/edo/node_modules/gulp-jshint/package.json
+13 verbose installManyTop reading scoped package data from /Users/edo/node_modules/gulp-livereload/package.json
+14 verbose installManyTop reading scoped package data from /Users/edo/node_modules/gulp-minify-css/package.json
+15 verbose installManyTop reading scoped package data from /Users/edo/node_modules/gulp-notify/package.json
+16 verbose installManyTop reading scoped package data from /Users/edo/node_modules/gulp-rename/package.json
+17 verbose installManyTop reading scoped package data from /Users/edo/node_modules/gulp-ruby-sass/package.json
+18 verbose installManyTop reading scoped package data from /Users/edo/node_modules/gulp-uglify/package.json
+19 verbose installManyTop reading scoped package data from /Users/edo/node_modules/jshint/package.json
+20 info package.json gulp-notify@2.2.0 No license field.
+21 info package.json gulp-rename@1.2.2 No license field.
+22 verbose readDependencies loading dependencies from /Users/edo/package.json
+23 silly cache add args [ 'ngrok', null ]
+24 verbose cache add spec ngrok
+25 silly cache add args [ '–save-dev', null ]
+26 verbose cache add spec –save-dev
+27 silly cache add parsed spec { raw: 'ngrok',
+27 silly cache add   scope: null,
+27 silly cache add   name: 'ngrok',
+27 silly cache add   rawSpec: '',
+27 silly cache add   spec: '*',
+27 silly cache add   type: 'range' }
+28 silly addNamed ngrok@*
+29 verbose addNamed "*" is a valid semver range for ngrok
+30 silly addNameRange { name: 'ngrok', range: '*', hasData: false }
+31 silly mapToRegistry name ngrok
+32 silly mapToRegistry using default registry
+33 silly mapToRegistry registry https://registry.npmjs.org/
+34 silly mapToRegistry uri https://registry.npmjs.org/ngrok
+35 verbose addNameRange registry:https://registry.npmjs.org/ngrok not in flight; fetching
+36 silly cache add parsed spec { raw: '–save-dev',
+36 silly cache add   scope: null,
+36 silly cache add   name: null,
+36 silly cache add   rawSpec: '–save-dev',
+36 silly cache add   spec: '/Users/edo/Documents/Udacity/p4/frontend-nanodegree-mobile-portfolio/build/–save-dev',
+36 silly cache add   type: 'local' }
+37 error addLocal Could not install /Users/edo/Documents/Udacity/p4/frontend-nanodegree-mobile-portfolio/build/–save-dev
+38 verbose request uri https://registry.npmjs.org/ngrok
+39 verbose request no auth needed
+40 info attempt registry request try #1 at 12:19:02 AM
+41 verbose request id c86e821c2fcdad32
+42 verbose etag "239KW8MJ8IAU0TY6VOSPLD7D7"
+43 http request GET https://registry.npmjs.org/ngrok
+44 http 304 https://registry.npmjs.org/ngrok
+45 silly get cb [ 304,
+45 silly get   { date: 'Wed, 01 Jul 2015 22:19:02 GMT',
+45 silly get     via: '1.1 varnish',
+45 silly get     'cache-control': 'max-age=60',
+45 silly get     etag: '"239KW8MJ8IAU0TY6VOSPLD7D7"',
+45 silly get     age: '23',
+45 silly get     connection: 'keep-alive',
+45 silly get     'x-served-by': 'cache-fra1241-FRA',
+45 silly get     'x-cache': 'HIT',
+45 silly get     'x-cache-hits': '1',
+45 silly get     'x-timer': 'S1435789142.466036,VS0,VE0',
+45 silly get     vary: 'Accept' } ]
+46 verbose etag https://registry.npmjs.org/ngrok from cache
+47 verbose get saving ngrok to /Users/edo/.npm/registry.npmjs.org/ngrok/.cache.json
+48 silly addNameRange number 2 { name: 'ngrok', range: '*', hasData: true }
+49 silly addNameRange versions [ 'ngrok',
+49 silly addNameRange   [ '0.1.0',
+49 silly addNameRange     '0.1.1',
+49 silly addNameRange     '0.1.2',
+49 silly addNameRange     '0.1.3',
+49 silly addNameRange     '0.1.4',
+49 silly addNameRange     '0.1.5',
+49 silly addNameRange     '0.1.6',
+49 silly addNameRange     '0.1.7',
+49 silly addNameRange     '0.1.8',
+49 silly addNameRange     '0.1.9',
+49 silly addNameRange     '0.1.91',
+49 silly addNameRange     '0.1.92',
+49 silly addNameRange     '0.1.93',
+49 silly addNameRange     '0.1.94',
+49 silly addNameRange     '0.1.95',
+49 silly addNameRange     '0.1.96',
+49 silly addNameRange     '0.1.97',
+49 silly addNameRange     '0.1.98',
+49 silly addNameRange     '0.1.99' ] ]
+50 silly addNamed ngrok@0.1.99
+51 verbose addNamed "0.1.99" is a plain semver version for ngrok
+52 silly cache afterAdd ngrok@0.1.99
+53 verbose afterAdd /Users/edo/.npm/ngrok/0.1.99/package/package.json not in flight; writing
+54 verbose afterAdd /Users/edo/.npm/ngrok/0.1.99/package/package.json written
+55 verbose stack Error: ENOENT, open '/Users/edo/Documents/Udacity/p4/frontend-nanodegree-mobile-portfolio/build/–save-dev'
+55 verbose stack     at Error (native)
+56 verbose cwd /Users/edo/Documents/Udacity/p4/frontend-nanodegree-mobile-portfolio/build
+57 error Darwin 14.3.0
+58 error argv "node" "/usr/local/bin/npm" "install" "ngrok" "–save-dev"
+59 error node v0.12.4
+60 error npm  v2.10.1
+61 error path /Users/edo/Documents/Udacity/p4/frontend-nanodegree-mobile-portfolio/build/–save-dev
+62 error code ENOENT
+63 error errno -2
+64 error enoent ENOENT, open '/Users/edo/Documents/Udacity/p4/frontend-nanodegree-mobile-portfolio/build/–save-dev'
+64 error enoent This is most likely not a problem with npm itself
+64 error enoent and is related to npm not being able to find a file.
+65 verbose exit [ -2, true ]
